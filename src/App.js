@@ -152,9 +152,9 @@ function App() {
 						{radio}
 					</p>
 					<p className="checkbox">
-						<span className="title">Checkbox : </span> {`[`}
+						<span className="title">Checkbox : </span> {`[ `}
 						{checkbox.map((x, i) => (x ? `${i + 1},` : ''))}
-						{`]`}
+						{` ]`}
 					</p>
 				</div>
 			</div>
